@@ -1,10 +1,18 @@
-<script setup>
-// import HelloWorld from './components/HelloWorld.vue'
+<script>
+import AppHeader from './components/AppHeader.vue';
+
+export default {
+  components: {
+    AppHeader
+  }
+}
 </script>
 
 <template>
-  <h1>Nuova app</h1>
-  <main></main>
+  <AppHeader />
+  <main>
+
+  </main>
 </template>
 
 <style lang="scss">
